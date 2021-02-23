@@ -1,7 +1,6 @@
 /* RESET CSS */
 html * {
     margin: 0px;
-
 }
 
 #menu {
@@ -47,8 +46,17 @@ html * {
     ;
 }
 
-
 #rodapé {
     height: 200PX;
     background-color: #505050;
+    /* Alinhamento dos icones das redes sociais */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones {
+    height: 100px;
+    margin: 20px;
+
 }
