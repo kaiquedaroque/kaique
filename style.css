@@ -1,0 +1,34 @@
+/* RESET CSS */
+html * {
+    margin: 0px;
+
+}
+
+#menu {
+    height: 400px;
+    background-color: #747373;
+    /*alinhar no centro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#perfil {
+    height: 300px;
+    width: 300px;
+    /*ajustar imagem sem perder a proporção */
+    object-fit: cover;
+    /*deixa a imagem redonda*/
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#principal {
+    height: 600px;
+    background-color: #5c5c5c;
+}
+
+#rodapé {
+    height: 200PX;
+    background-color: #505050;
+}
